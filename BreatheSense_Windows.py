@@ -19,12 +19,12 @@ import sys
 
 
 mqttc = mqtt.Client("BreatheData", clean_session=False)
-mqttc.username_pw_set("zcvkuouj", "xUVwWu2tKS6q")
-mqttc.connect("m15.cloudmqtt.com", 14487, 60)
+mqttc.username_pw_set("username", "password")
+mqttc.connect("m15.cloudmqtt.com", "Enter the Port you get", 60)
 
 mqtta = mqtt.Client("WordData", clean_session=False)
-mqtta.username_pw_set("jcoqhidi", "aLyForgmJkL_")
-mqtta.connect("m15.cloudmqtt.com", 16383, 60)
+mqtta.username_pw_set("username", "password")
+mqtta.connect("m15.cloudmqtt.com","Enter the Port you get" , 60)
 
 #--------------------------------------------------------------------------------------------
 #walabot initialization to define the path of SDK for both windows and linux platforms
